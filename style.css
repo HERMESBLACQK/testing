@@ -1,0 +1,47 @@
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oxygen:wght@300&display=swap');
+  body{
+          font-family: 'Oxygen', sans-serif;
+  }
+
+  .container{
+          border: 2px solid red;
+          padding: 20px;
+  }
+  .header{
+          border: 2px solid green;
+          padding: 5px;
+          
+  }
+  .swipe{
+          border: 2px solid blue;
+          padding: 10px;
+          margin: 30px auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
