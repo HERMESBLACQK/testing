@@ -6,6 +6,7 @@
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
           <link rel="stylesheet" href="fontsawesome/css/all.css">
           <link rel="stylesheet" href="style.css">
           <title>Document</title>
@@ -16,16 +17,45 @@
 
         <div class="container">
 <div class="header">
-          <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+          <i class="fa-solid fa-arrow-right"></i>
 
 </div>
+<div class="swiper-pagination" style="position: absolute; top: 47%;"></div>
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+
+                  <img src="/images/Cabbage 1.png" alt="">    
+          </div>
+          <div class="swiper-slide">
+                <img src="/images/Greek salad 1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+                <img src="/images/vegetables 1 2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+                <img src="/images/Rectangle 43 (3).png" alt="">
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+      </div>
+      
           <div class="swipe">
                 <div class="swiper">
-                        
                 </div>
 
           </div>
-
+          <div class="note">
+                <h2>Safe Payment, Happy you!</h2>
+                <p>Create a fresh virtual card for all your shopping and banking needs</p>
+          </div>
+<div class="nav-foot">
+       
+        <a href="homepage.html">
+                <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+        </a>
+        
+</div>
         </div>
 
 
@@ -36,6 +66,19 @@
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+        // Initialize Swiper
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+</script>
+
 
 </html>
