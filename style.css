@@ -19,7 +19,12 @@
   .header{
           border: 2px solid green;
           padding: 5px;
-          
+          text-align: right;
+
+  }
+  .header i{
+          font-size: 28px;
+
   }
   .swipe{
           border: 2px solid blue;
