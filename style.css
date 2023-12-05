@@ -114,6 +114,7 @@
         padding: 10px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
   }
   .card-details{
         margin-top: 50px;
